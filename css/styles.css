@@ -76,11 +76,13 @@ img {
 
 .modal{
     position: absolute;
+    padding: 24px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 408px;
     height: 576px;
+    padding-top: 72px;
     background-color: #FCFCFC;
     
 }
@@ -95,6 +97,8 @@ img {
     width: 24px;
     height: 24px;
     padding: 0;
+    margin-left: auto;
+    margin-bottom: 24px;
     color: #000000;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -117,6 +121,61 @@ img {
 fill: currentColor;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-title{
+position: relative;
+font-family: 'Roboto';
+ font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--second-title-color);
+margin-bottom: 16px;
+
+}
+
+.modal-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-input{
+    height: 40px ;
+    width: 360px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    margin-bottom: 26px;
+}
+
+.modal-comment{
+    width: 360px;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    padding-left: 16px;  
+}
+
+.modal-form-field{}
+
+.modal-form-input-descr{}
+
+.modal-svg-input{}
+
+.modal-form-field {}
+
+.modal-form-input-descr {}
+
+.modal-name {}
+
+.modal-svg-input {}
+
+.modal-phone {}
+
+.modal-email {}
+
+.modal-comment {}
 /*---------------------HEADER---------------*/
 .header {
     border-bottom: 1px solid #E7E9FC;
