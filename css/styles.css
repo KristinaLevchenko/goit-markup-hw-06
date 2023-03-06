@@ -98,8 +98,6 @@ img {
     width: 24px;
     height: 24px;
     padding: 0;
-    margin-left: auto;
-    margin-bottom: 24px;
     color: #000000;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -161,6 +159,10 @@ margin-bottom: 16px;
 
 .modal-input:focus + .modal-svg-input{
     fill: var(--mein-btn-color);
+}
+
+.modal-form-comment{
+    margin-bottom: 16px;
 }
 
 .modal-comment{
@@ -240,9 +242,8 @@ margin-bottom: 16px;
  border-color: var(--mein-btn-color);
 }
 
-.modal-form-checkbox {
-    margin-bottom: 10px;
-}
+.modal-form-checkbox {}
+
 
 .input-checkbox {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -291,8 +292,9 @@ border-color: var(--focus-btn-color);
     color: #FFFFFF;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
+    margin-top: 24px;
     cursor: pointer;
     border: none;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -789,8 +791,7 @@ background-color: var(--focus-btn-color);
 }
 
 .footer-submit-btn {
-        width: 165px;
-        height: 40px;
+        min-width: 165px;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
